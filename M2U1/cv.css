@@ -1,0 +1,78 @@
+/* font-family: 'Monoton', cursive;
+font-family: 'Roboto', sans-serif; */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #c4bcd8;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #c4bcd8, #E9E4F0, white);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #c4bcd8, #E9E4F0, white);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pie {
+    width: 350px;
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin: auto;
+    text-align: center;
+    border-radius: 46px 46px 46px 46px;
+    box-shadow: 20px 20px 30px 0px #9d94b4;
+}
+
+.encabezado {
+    text-align: center;
+    border-bottom: 4px double #000000;
+}
+
+.columna {
+    column-count: 2;
+    column-gap: 25px;
+    column-rule: 4px double #000000;
+}
+
+.icon {
+    color: black;
+    margin-right: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Monoton', cursive;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+img {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+a {
+    text-transform: uppercase;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #593ba3;
+}
+
+a:active {
+    color: white;
+}
