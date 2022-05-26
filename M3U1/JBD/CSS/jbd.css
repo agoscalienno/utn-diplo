@@ -125,6 +125,7 @@ p {
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .strip img {
@@ -264,6 +265,7 @@ p {
 .datos {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 60px;
 }
 
 i {
@@ -271,9 +273,8 @@ i {
     font-size: 60px;
 }
 
-.contacto div {
+.contacto {
     width: 100%;
-    margin: auto 15px;
 }
 
 .formulario p {
@@ -289,7 +290,8 @@ i {
 }
 
 .formulario p input {
-    width: 100%;
+    width: 400px;
+    height: 30px;
     border: solid 1px #75a476ff;
     border-radius: 10px;
 }
@@ -312,6 +314,7 @@ i {
     border: solid 1px #75a476ff;
     border-radius: 10px;
     width: auto;
+    height: 50px;
     padding: 10px;
     position: relative;
     cursor: pointer;
