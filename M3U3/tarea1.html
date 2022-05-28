@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tarea 1</title>
+</head>
+
+<body>
+    <script>
+
+        var metros;
+
+        metros = prompt('Ingrese la cantidad de metros que desea recorrer:', '');
+
+        if (metros < 1000)
+            document.write('Tu medio de transporte apropiado es a pie.');
+        else if (metros > 1000 && metros < 10000)
+            document.write('Tu medio de transporte apropiado es la bicicleta.');
+        else if (metros > 10000 && metros < 30000)
+            document.write('Tu medio de transporte apropiado es el colectivo.');
+        else if (metros > 30000 && metros < 100000)
+            document.write('Tu medio de transporte apropiado es el auto.');
+        else if (metros > 100000)
+            document.write('Tu medio de transporte apropiado es el avion.');
+
+        console.log(metros);
+
+    </script>
+
+
+</body>
+
+</html>

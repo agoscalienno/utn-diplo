@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Tarea 2</title>
+</head>
+
+<body>
+    <script>
+
+        num1 = prompt('Ingrese primer número:', '');
+        num2 = prompt('Ingrese segundo número:', '');
+        num3 = prompt('Ingrese tercer número:', '');
+        num4 = prompt('Ingrese cuarto número:', '');
+        num5 = prompt('Ingrese quinto número:', '');
+
+        var numeros = [num1, num2, num3, num4, num5];
+
+        num1 = parseInt(num1);
+        num2 = parseInt(num2);
+        num3 = parseInt(num3);
+        num4 = parseInt(num4);
+        num5 = parseInt(num5);
+
+        if (num1 > num2 && num1 > num3 && num1 > num4 && num1 > num5)
+            document.write('El numero mas alto es el ' + num1);
+        else if (num2 > num1 && num2 > num3 && num2 > num4 && num2 > num5)
+            document.write('El numero mas alto es el ' + num2);
+        else if (num3 > num2 && num3 > num1 && num3 > num4 && num3 > num5)
+            document.write('El numero mas alto es el ' + num3);
+        else if (num4 > num2 && num4 > num3 && num4 > num1 && num4 > num5)
+            document.write('El numero mas alto es el ' + num4);
+        else if (num5 > num2 && num5 > num3 && num5 > num4 && num5 > num1)
+            document.write('El numero mas alto es el ' + num5);
+
+        console.log(numeros)
+
+
+    </script>
+
+</body>
+
+</html>
