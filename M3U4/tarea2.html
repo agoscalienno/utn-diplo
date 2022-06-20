@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA 2</title>
+</head>
+
+<body>
+    <h1>Escribe un mensaje:</h1>
+    <textarea name="mensaje" id="textarea" cols="40" rows="10"></textarea>
+    <br>
+    <button id="contador">Contar caracteres</button>
+
+    <script>
+        var caracteres = document.getElementById('textarea')
+        var contador = document.getElementById('contador');
+        contador.addEventListener('click', function (e) {
+            alert('La cantidad de caracteres es: ' + caracteres.value.length);
+        });
+
+    </script>
+</body>
+
+</html>

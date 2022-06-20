@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA 1</title>
+</head>
+
+<body>
+    <h1>Elige tu color de fondo:</h1>
+    <button id="rojo"
+        style="width: 100px; height: 100px; background-color: red; display: inline-flex; flex-direction: row;"></button>
+    <button id="azul"
+        style="width: 100px; height: 100px; background-color: blue; display: inline-flex; flex-direction: row;"></button>
+    <button id="verde"
+        style="width: 100px; height: 100px; background-color: green; display: inline-flex; flex-direction: row;"></button>
+
+    <script>
+        var fondorojo = document.getElementById('rojo');
+        fondorojo.addEventListener('click', function onClick(event) { document.body.style.backgroundColor = 'red' });
+        var fondoazul = document.getElementById('azul');
+        fondoazul.addEventListener('click', function onClick(event) { document.body.style.backgroundColor = 'blue' });
+        var fondoverde = document.getElementById('verde');
+        fondoverde.addEventListener('click', function onClick(event) { document.body.style.backgroundColor = 'green' });       
+    </script>
+</body>
+
+</html>
