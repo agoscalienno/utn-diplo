@@ -1,0 +1,20 @@
+
+.columnas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    width: 80%;
+    padding-right: 10px;
+    box-sizing: border-box;
+    display: block;
+    align-self: center;
+}
+
+
+.staff {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+}

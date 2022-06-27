@@ -1,0 +1,17 @@
+
+.strip {
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.strip img {
+    border-radius: 10px;
+}
+
+.strip img:hover {
+    transform: scale(1.3);
+    transition: transform 0.5s 0s ease;
+}
