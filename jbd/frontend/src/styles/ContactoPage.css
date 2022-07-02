@@ -5,9 +5,10 @@
     margin-top: 20px;
 }
 
-i {
+a {
     color: #75a476ff;
-    font-size: 60px;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .contacto {

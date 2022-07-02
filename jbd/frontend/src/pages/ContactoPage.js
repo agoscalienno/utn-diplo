@@ -39,9 +39,9 @@ const ContactoPage = (props) => {
                                 </form>
                             </div>
                             <div className="datos">
-                                <a href="https://www.instagram.com/jbd.interiores/"><i className="fa-brands fa-instagram"></i></a>
-                                <a href="https://wa.me/1XXXXXXXXXX"><i className="fa-brands fa-whatsapp"></i></a>
-                                <a href="mailto: jbdecoraciondeinteriores@gmail.com"><i className="fa-regular fa-envelope"></i></a>
+                                <a href="https://www.instagram.com/jbd.interiores/">INSTAGRAM</a>
+                                <a href="https://wa.me/1XXXXXXXXXX">WHATSAPP</a>
+                                <a href="mailto: jbdecoraciondeinteriores@gmail.com">MAIL</a>
                             </div>
                         </main>
                         )
