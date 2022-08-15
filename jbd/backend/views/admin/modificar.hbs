@@ -1,0 +1,32 @@
+{{#if error}}
+<h4>{{message}}</h4>
+{{/if}}
+
+
+<div class="container" style="margin: 100px auto">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h3>Editar entrada</h3>
+            <br>
+            <form action="/admin/novedades/modificar" method="post">
+                <input type="hidden" value="{{novedad.id}}" name="id">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Titulo" name="titulo"
+                        value="{{novedad.titulo}}">
+                </div>
+                <br>
+                <div class="form-group">
+                    <textarea type="text" class="form-control" placeholder="Copete"
+                        name="copete">{{novedad.copete}}</textarea>
+                </div>
+                <br>
+                <div class="form-group">
+                    <textarea type="text" class="form-control" placeholder="Cuerpo"
+                        name="cuerpo">{{novedad.cuerpo}}</textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary" style="background-color: #75a476ff ; border-color: #75a476ff; ">Guardar</button>
+            </form>
+        </div>
+    </div>
+</div>
