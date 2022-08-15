@@ -1,0 +1,28 @@
+{{#if error}}
+<h4>{{message}}</h4>
+{{/if}}
+
+<div class="container" style="margin: 100px auto">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h3>Agregar una nueva novedad</h3>
+            <br>
+
+            <form action="/admin/novedades/agregar" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Titulo" name="titulo">
+                </div>
+                <br>
+                <div class="form-group">
+                    <textarea type="text" class="form-control" placeholder="Copete" name="copete"></textarea>
+                </div>
+                <br>
+                <div class="form-group">
+                    <textarea type="text" class="form-control" placeholder="Cuerpo" name="cuerpo"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary">Guardar</button>
+            </form>
+        </div>
+    </div>
+</div>
