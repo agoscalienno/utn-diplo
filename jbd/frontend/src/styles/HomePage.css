@@ -1,10 +1,11 @@
 
+
 .strip {
     height: 100px;
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .strip img {
